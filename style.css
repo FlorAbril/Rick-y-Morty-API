@@ -1,0 +1,34 @@
+:root{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+
+.contenedor-inputs{
+    background-color: lightblue;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-inputs > div {
+    display: flex;
+    align-items: center;
+}
+
+.input-entrada{
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        width: 20rem;
+}
+
+.boton-busqueda{
+    padding: 0.3rem;
+}
+
+.contenedor-personajes{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0.5rem;
+}
